@@ -1,5 +1,5 @@
 Also put your function in the process function
-
+@export var bullet_scene : PackedScene
 	
 func check_for_shooting(delta):
 	if Input.is_action_pressed("shoot"):
