@@ -1,0 +1,12 @@
+Also put your function in the process function
+
+	
+func check_for_shooting(delta):
+	if Input.is_action_pressed("shoot"):
+		shoot()
+
+func shoot():
+	var bullet_instance = bullet_scene.instantiate()
+	get_tree().root.add_child(bullet_instance) # add the projectile
+	
+	bullet_instance.global_transform = $ProjectileSpawnPoint.global_transform
