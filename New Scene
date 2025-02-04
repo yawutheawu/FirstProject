@@ -1,0 +1,8 @@
+extends RigidBody3D
+var speed = 10
+# Called when the node enters the scene tree for the first time.
+func _shoot():
+	apply_impulse(transform.basis.z * speed, global_transform.origin)
+
+make a new scene then add RigidBody3D, Collision shape 3D and CSG SPhere
+Put code into the rigid body 3d
