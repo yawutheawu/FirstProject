@@ -1,0 +1,2 @@
+Add a rigid body 3d, with a collision shape as its child, with a csg box as a child of the collision shape.
+Set the mass of the rigid body low, and add physics material and make the friction lower.
